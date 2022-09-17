@@ -59,7 +59,7 @@
 - 라이브러리, 프레임워크에서 어떻게 활용할 수 있는지 파악한다.
 
 ### 체크리스트
-- [ ] 1단계 - Junit3TestRunner 클래스의 모든 테스트를 통과시킨다.
+- [x] 1단계 - Junit3TestRunner 클래스의 모든 테스트를 통과시킨다.
 - [ ] 2단계 - Junit4TestRunner 클래스의 모든 테스트를 통과시킨다.
 - [ ] 3단계 - ReflectionTest 클래스의 모든 테스트를 통과시킨다.
 - [ ] 4단계 - ReflectionsTest 클래스의 모든 테스트를 통과시킨다.
