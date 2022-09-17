@@ -16,8 +16,9 @@ class Junit4TestRunner {
         List<Method> methods = Arrays.stream(clazz.getMethods())
             .filter(it -> it.isAnnotationPresent(MyTest.class))
             .collect(Collectors.toList());
+        Junit4Test junit4Test = clazz.getConstructor().newInstance();
         for (Method method : methods) {
-            method.invoke(new Junit4Test());
+            method.invoke(junit4Test);
         }
     }
 }

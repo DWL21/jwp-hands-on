@@ -16,8 +16,9 @@ class Junit3TestRunner {
         List<Method> methods = Arrays.stream(clazz.getMethods())
             .filter(it -> it.getName().startsWith("test"))
             .collect(Collectors.toList());
+        Junit3Test junit3Test = clazz.getConstructor().newInstance();
         for (Method method : methods) {
-            method.invoke(new Junit3Test());
+            method.invoke(junit3Test);
         }
     }
 }
