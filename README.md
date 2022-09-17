@@ -60,6 +60,6 @@
 
 ### 체크리스트
 - [x] 1단계 - Junit3TestRunner 클래스의 모든 테스트를 통과시킨다.
-- [ ] 2단계 - Junit4TestRunner 클래스의 모든 테스트를 통과시킨다.
+- [x] 2단계 - Junit4TestRunner 클래스의 모든 테스트를 통과시킨다.
 - [ ] 3단계 - ReflectionTest 클래스의 모든 테스트를 통과시킨다.
 - [ ] 4단계 - ReflectionsTest 클래스의 모든 테스트를 통과시킨다.
